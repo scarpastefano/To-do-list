@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import Home from './Home.vue'
+import Product from './Product.vue'
 const Tab = ref(1);
 </script>
 
@@ -26,7 +27,7 @@ const Tab = ref(1);
                 <Home />
             </div>
             <div v-if="Tab === 0" class="py-10 px-6">
-                contenuto 2
+                <Product />
             </div>
         </div>
     </div>
