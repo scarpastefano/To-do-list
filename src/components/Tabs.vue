@@ -11,13 +11,13 @@ const Tab = ref(1);
             <button 
                 @click="Tab = 1"
                 :class="{'btn-neutral': Tab === 1}"
-                class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+                class="btn">
                 Home
             </button>
             <button 
                 @click="Tab = 0"
                 :class="{'btn-neutral': Tab === 0}"
-                class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+                class="btn">
                 Prodotti
             </button>
         </div>

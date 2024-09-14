@@ -57,12 +57,12 @@ function deleteProduct(productID){
     
     <!-- contatori -->
     <div class="w-full sm:w-2/5 mx-auto my-4">
-        <div class="flex flex-row justify-between">
-            <button class="btn">
+        <div class="w-full flex flex-row justify-between">
+            <button class="btn w-1/2">
                 comprati
                 <span class="badge">{{ boughtProduct }}</span>
             </button>
-            <button class="btn">
+            <button class="btn w-1/2">
                 da comprare
                 <span class="badge">{{ toBuyProduct }}</span>
             </button>
@@ -78,7 +78,7 @@ function deleteProduct(productID){
                 </svg>
             </button>
             
-            <span class="label-text my-auto" :class="{'line-through': product.completed }" >{{ product.name }}</span>
+            <span class="label-text my-auto w-full" :class="{'line-through': product.completed }" >{{ product.name }}</span>
             
             
             <label class="label cursor-pointer me-5">
@@ -86,7 +86,7 @@ function deleteProduct(productID){
                 @change="toggleCompleted(product)"
                 v-model="product.completed" 
                 type="checkbox" 
-                class="checkbox checkbox-primary" />
+                class="checkbox" />
             </label>
         </div>
     </div>
