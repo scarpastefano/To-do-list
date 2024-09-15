@@ -1,13 +1,18 @@
 {
   "product": [
     {
-      "id": "93b7",
+      "id": "db68",
       "name": "mela",
       "completed": false
     },
     {
-      "id": "5058",
-      "name": "uova",
+      "id": "ab07",
+      "name": "banana",
+      "completed": true
+    },
+    {
+      "id": "0e4e",
+      "name": "insalata",
       "completed": false
     }
   ]
