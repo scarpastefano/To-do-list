@@ -2,7 +2,7 @@
 import { computed, onMounted, ref } from 'vue';
 import axios from 'axios';
 
-const endpoint = 'http://localhost:3000/product';
+const endpoint = '/api/posts';
 
 let products = ref([]);
 
