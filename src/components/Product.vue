@@ -2,7 +2,7 @@
 import { computed, onMounted, ref } from 'vue';
 import axios from 'axios';
 
-const endpoint = '/api/posts';
+const endpoint = 'https://json-server-todolist-seven.vercel.app/product';
 
 let products = ref([]);
 
